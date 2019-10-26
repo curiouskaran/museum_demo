@@ -1,10 +1,11 @@
 {
-  "name": "meuseam_demo_app",
+  "name": "meuseum_demo_app",
   "version": "1.0.0",
-  "description": "Demo meuseam app made with electron",
-  "main": "main.js",
+  "description": "Demo meuseum app made with electron",
+  "main": "./src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/curiouskaran/museum_demo/issues"
   },
-  "homepage": "https://github.com/curiouskaran/museum_demo#readme"
+  "homepage": "https://github.com/curiouskaran/museum_demo#readme",
+  "devDependencies": {
+    "electron": "^7.0.0"
+  }
 }
