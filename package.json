@@ -1,0 +1,19 @@
+{
+  "name": "meuseam_demo_app",
+  "version": "1.0.0",
+  "description": "Demo meuseam app made with electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curiouskaran/museum_demo.git"
+  },
+  "author": "Karan Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curiouskaran/museum_demo/issues"
+  },
+  "homepage": "https://github.com/curiouskaran/museum_demo#readme"
+}
